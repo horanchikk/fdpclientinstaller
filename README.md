@@ -8,6 +8,7 @@ shutil
 
 For launch use:
 ```sh
+yarn
 yarn start
 ```
 or
