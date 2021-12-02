@@ -12,8 +12,9 @@ function createWindow () {
     width: 900, 
     height: 600,
     frame: false,
-    show: true,
-    hasShadow: true
+    backgroundColor: "#fff",
+    hasShadow: true,
+    show: true
   })
 
   mainWindow.loadURL(url.format({
