@@ -1,9 +1,9 @@
 # FdpClient installer
 
-Requirements: Python 3.7+
+Requirements: Python 3.7+ with installed shutil.
 
 For first launch use:
-```sh
+```
 yarn
 yarn start
 ```
