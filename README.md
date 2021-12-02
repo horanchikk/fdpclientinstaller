@@ -1,9 +1,7 @@
 # FdpClient installer
 
-If you want to launch app, please install python 3.7+ and install from pip, these packages:
-```
-shutil
-```
+Requirements:
+
 
 
 For launch use:
@@ -12,7 +10,8 @@ yarn
 yarn start
 ```
 or
-```sh
+```
+npm install
 npm start
 ```
 
