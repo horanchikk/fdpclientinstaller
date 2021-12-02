@@ -1,10 +1,8 @@
 # FdpClient installer
 
-Requirements:
+Requirements: Python 3.7+
 
-
-
-For launch use:
+For first launch use:
 ```sh
 yarn
 yarn start
