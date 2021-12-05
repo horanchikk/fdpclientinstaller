@@ -1,7 +1,7 @@
-@import url('Comfortaa-Bold.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 
 * {
-    font-family: Comfortaa;
+    font-family: 'Comfortaa', cursive;
     font-weight: bold;
 }
 

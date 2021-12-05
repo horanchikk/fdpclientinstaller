@@ -29,7 +29,6 @@ let optionsdbeta = {
   args: ['beta']
 }
 
-
 function closer() {
     window.close();
 }
@@ -220,9 +219,7 @@ function installbeta() {
         didOpen: () => {
           console.log("PyShell launched")
           Swal.showValidationMessage("Downloading, please wait...")
-          print('1')
           let downloader = new PythonShell('../py/downloader.py', optionsdbeta);
-          print('1')
           Swal.showLoading();
           timerInterval = setInterval(() => {
             Swal.stopTimer();
