@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+body {
+    background: url(background.png);
+    background-repeat: space no-repeat;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 1px 1px 3px black;
+    padding-left: 25%;
+}
+
+h1:hover {
+    color:rgb(131, 131, 131);
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 1px 1px 3px black;
+}
+
+h2:hover {
+    color:rgb(131, 131, 131);
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+#closeWindow {
+    margin-left: 100%;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#swal2-validation-message {
+    font-size: 14px;
+    text-shadow: 1px 1px 3px rgb(131, 131, 131);
+}
